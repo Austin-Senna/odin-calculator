@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Orbitron'
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+#container {
+    display:flex;
+    flex-direction: column;
+    padding:20px 10px;
+    width: 50%;
+    border:2px black solid;
+    border-radius:12px;
+    gap: 20px;
+    background-color: darkslategray;
+}
+
+.display-container {
+    background-color: darkseagreen;
+    height:100px;
+    padding:20px;
+    box-sizing: border-box;
+    color: rgb(28, 40, 29);
+    font-size:30px;
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+}
+
+.button-container{
+    display: flex;
+    gap:10px;
+    flex-direction: row;
+}
+
+.left {
+    display:flex;
+    flex-direction: column;
+    flex:9;
+    justify-content: center;
+    gap:10px;
+}
+
+.main-function {
+    display:flex;
+    gap:10px;
+}
+
+.main-function button {
+    flex:1;
+    padding:20px;
+    border-radius:10px;
+    background-color: rgb(196, 166, 130);
+}
+
+.numbers {
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.row {
+    display:flex;
+    height: 70px;
+}
+
+.row button {
+    flex:1;
+    border-radius:10px;
+    background-color: rgb(36, 42, 25);
+    color:white;
+}
+
+.right {
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    flex:3;
+    justify-content: center;
+}
+
+.right button {
+    flex:1;
+    background-color: rgb(56, 56, 79);
+    color:white;
+    border-radius: 10px;
+    padding:10px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
